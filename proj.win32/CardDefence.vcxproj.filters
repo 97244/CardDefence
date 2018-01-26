@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防">
+      <UniqueIdentifier>{ecab1ba8-53b9-4c34-a4d7-92bcebdd3d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器">
+      <UniqueIdentifier>{8e969704-3230-421e-9d60-5b7098c5aa9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器\坐标编辑器">
+      <UniqueIdentifier>{e308ec3c-99e6-46df-b13e-d2fd9ce3cf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器\坐标编辑器\坐标对象">
+      <UniqueIdentifier>{5c06e27d-faa2-4192-bce0-5e23ebd86ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器\坐标编辑器\坐标对象\塔坐标对象">
+      <UniqueIdentifier>{1747006e-15de-42a5-be9e-d40eb91658fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器\坐标编辑器\编辑层">
+      <UniqueIdentifier>{189c3d7c-4357-48fe-8f26-eec2ce383b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器\坐标编辑器\操作层">
+      <UniqueIdentifier>{3769dd7f-8c36-4753-a4bd-d393de6015c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\工具类">
+      <UniqueIdentifier>{29ae7e8c-24c0-4e70-a1a6-d4c106a5c741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\工具类\坐标对象加载">
+      <UniqueIdentifier>{13c1afff-7692-4587-94de-d576a492e0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\枚举类">
+      <UniqueIdentifier>{52900806-309b-43bd-822d-0af3576ba429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\编辑器\坐标编辑器\坐标对象\怪物坐标对象">
+      <UniqueIdentifier>{6b7abb54-88ed-4f52-8587-fcfb669cbd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\工具类\文件读取">
+      <UniqueIdentifier>{a05d2804-ede2-465e-a3bc-fd281af4cb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\工具类\文件读取\Csv文件读取">
+      <UniqueIdentifier>{bbcb8fe7-88d9-40b7-9e28-06d204bcb57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景">
+      <UniqueIdentifier>{e0ea5257-0542-4cf8-bef2-4a3ad4106154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\场景管理器">
+      <UniqueIdentifier>{cf7e814a-3331-4538-8e91-9878189334d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\工具类\文件读取\字符串工具类">
+      <UniqueIdentifier>{9c666c91-b852-4b46-b209-5aa273e3354c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\全局参数">
+      <UniqueIdentifier>{1f35d896-58f4-4e07-85e8-6d472921b8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\工具类\国际化">
+      <UniqueIdentifier>{907bd70a-add2-4e86-aac5-cf5688aeff42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\关卡场景">
+      <UniqueIdentifier>{7b6c6506-0db1-41ea-9bf1-393cd9cee63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\关卡场景\地图图层">
+      <UniqueIdentifier>{64c207d8-1f7d-4106-99e1-71cd476f21ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体">
+      <UniqueIdentifier>{a132e6df-9382-4161-9dde-90f1907bd657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\怪物">
+      <UniqueIdentifier>{e9565deb-57bf-4ff3-8e3d-053f259aac26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\管理器">
+      <UniqueIdentifier>{4cd9084e-8e86-473b-a768-18ed98d679c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\炮台">
+      <UniqueIdentifier>{a462cecf-4bdd-42c6-9d83-4203e8e6d2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\实体控制器">
+      <UniqueIdentifier>{5b9bc40f-c1e4-4692-a1f0-19d4b1d124c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\英雄">
+      <UniqueIdentifier>{1f36b4ff-758b-4953-8cc3-a20a9b54f0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\管理器\英雄管理器">
+      <UniqueIdentifier>{24366764-1ff1-414b-bff0-df4ac7e277cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\管理器\怪物管理器">
+      <UniqueIdentifier>{79b21387-16ae-469d-918f-d54d9b5c5f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\实体控制器\移动控制器">
+      <UniqueIdentifier>{e40cb30f-a988-4b6b-9256-3cd85d612d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\实体控制器\移动控制器\简单级_按指定坐标移动">
+      <UniqueIdentifier>{6d680ccd-adfb-482b-8c95-683b3eca7abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\子弹">
+      <UniqueIdentifier>{d57c1244-b38b-4573-ba3f-148f878cec40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\子弹\普通子弹">
+      <UniqueIdentifier>{0ce4d43e-d6b0-4c4e-9a2e-7f441573e27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\实体\管理器\子弹管理器">
+      <UniqueIdentifier>{cd5dd370-8df2-4ea0-add9-b5f682475ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\关卡场景\数据图层">
+      <UniqueIdentifier>{50bf3add-6946-453b-b7ad-1044c05f56b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\关卡选择器">
+      <UniqueIdentifier>{a9d3a7c9-f573-4a52-870a-2526f20098a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\胜利场景">
+      <UniqueIdentifier>{210d9be8-b2ec-41ee-a59e-ee067f6ac3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="卡牌塔防\场景\失败场景">
+      <UniqueIdentifier>{4d46661b-3074-46c8-b57c-263af8af0e80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPosEditorScene.cpp">
+      <Filter>卡牌塔防\编辑器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PosBase.cpp">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\坐标对象</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPos.cpp">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\坐标对象\塔坐标对象</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPosEditorLayer.cpp">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\编辑层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPosEditorOperateLayer.cpp">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\操作层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PosLoadUtil.cpp">
+      <Filter>卡牌塔防\工具类\坐标对象加载</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterPos.cpp">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\坐标对象\怪物坐标对象</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneManager.cpp">
+      <Filter>卡牌塔防\场景\场景管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StringUtil.cpp">
+      <Filter>卡牌塔防\工具类\文件读取\字符串工具类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvUtil.cpp">
+      <Filter>卡牌塔防\工具类\文件读取\Csv文件读取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvData.cpp">
+      <Filter>卡牌塔防\工具类\文件读取\Csv文件读取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\I18N.cpp">
+      <Filter>卡牌塔防\工具类\国际化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TollgateScene.cpp">
+      <Filter>卡牌塔防\场景\关卡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>卡牌塔防\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroManager.cpp">
+      <Filter>卡牌塔防\实体\管理器\英雄管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerBorder.cpp">
+      <Filter>卡牌塔防\实体\炮台</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero.cpp">
+      <Filter>卡牌塔防\实体\英雄</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterManager.cpp">
+      <Filter>卡牌塔防\实体\管理器\怪物管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ControllerBase.cpp">
+      <Filter>卡牌塔防\实体\实体控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ControllerMoveBase.cpp">
+      <Filter>卡牌塔防\实体\实体控制器\移动控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ControllerSimpleMove.cpp">
+      <Filter>卡牌塔防\实体\实体控制器\移动控制器\简单级_按指定坐标移动</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>卡牌塔防\实体\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TollgateMapLayer.cpp">
+      <Filter>卡牌塔防\场景\关卡场景\地图图层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletBase.cpp">
+      <Filter>卡牌塔防\实体\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletNormal.cpp">
+      <Filter>卡牌塔防\实体\子弹\普通子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletManager.cpp">
+      <Filter>卡牌塔防\实体\管理器\子弹管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TollgateDataLayer.cpp">
+      <Filter>卡牌塔防\场景\关卡场景\数据图层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TollgateSelectScene.cpp">
+      <Filter>卡牌塔防\场景\关卡选择器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GlobalClient.cpp">
+      <Filter>卡牌塔防\全局参数</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WinScene.cpp">
+      <Filter>卡牌塔防\场景\胜利场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>卡牌塔防\场景\失败场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPosEditorScene.h">
+      <Filter>卡牌塔防\编辑器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PosBase.h">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\坐标对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPos.h">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\坐标对象\塔坐标对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPosEditorLayer.h">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\编辑层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPosEditorOperateLayer.h">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\操作层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PosLoadUtil.h">
+      <Filter>卡牌塔防\工具类\坐标对象加载</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnumPosType.h">
+      <Filter>卡牌塔防\枚举类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterPos.h">
+      <Filter>卡牌塔防\编辑器\坐标编辑器\坐标对象\怪物坐标对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneManager.h">
+      <Filter>卡牌塔防\场景\场景管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StringUtil.h">
+      <Filter>卡牌塔防\工具类\文件读取\字符串工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvUtil.h">
+      <Filter>卡牌塔防\工具类\文件读取\Csv文件读取</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvData.h">
+      <Filter>卡牌塔防\工具类\文件读取\Csv文件读取</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalDefine.h">
+      <Filter>卡牌塔防\全局参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalPath.h">
+      <Filter>卡牌塔防\全局参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalParam.h">
+      <Filter>卡牌塔防\全局参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnumStrKey.h">
+      <Filter>卡牌塔防\枚举类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\I18N.h">
+      <Filter>卡牌塔防\工具类\国际化</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TollgateScene.h">
+      <Filter>卡牌塔防\场景\关卡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>卡牌塔防\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroManager.h">
+      <Filter>卡牌塔防\实体\管理器\英雄管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerBorder.h">
+      <Filter>卡牌塔防\实体\炮台</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero.h">
+      <Filter>卡牌塔防\实体\英雄</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnumHeroPropConfType.h">
+      <Filter>卡牌塔防\枚举类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterManager.h">
+      <Filter>卡牌塔防\实体\管理器\怪物管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ControllerBase.h">
+      <Filter>卡牌塔防\实体\实体控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ControllerMoveBase.h">
+      <Filter>卡牌塔防\实体\实体控制器\移动控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ControllerSimpleMove.h">
+      <Filter>卡牌塔防\实体\实体控制器\移动控制器\简单级_按指定坐标移动</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>卡牌塔防\实体\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnumMonsterPropConfType.h">
+      <Filter>卡牌塔防\枚举类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TollgateMapLayer.h">
+      <Filter>卡牌塔防\场景\关卡场景\地图图层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletBase.h">
+      <Filter>卡牌塔防\实体\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletNormal.h">
+      <Filter>卡牌塔防\实体\子弹\普通子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletManager.h">
+      <Filter>卡牌塔防\实体\管理器\子弹管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TollgateDataLayer.h">
+      <Filter>卡牌塔防\场景\关卡场景\数据图层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TollgateSelectScene.h">
+      <Filter>卡牌塔防\场景\关卡选择器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalClient.h">
+      <Filter>卡牌塔防\全局参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WinScene.h">
+      <Filter>卡牌塔防\场景\胜利场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>卡牌塔防\场景\失败场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
